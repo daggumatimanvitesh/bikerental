@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RideEasy | Bike Rental & Booking</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="navbar">
+    <a href="#" class="brand">Ride<span>Easy</span></a>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#bikes">Bikes</a>
+        <a href="#how">How It Works</a>
+        <a href="#reviews">Reviews</a>
+    </nav>
+    <a href="#booking" class="nav-btn">Book Now</a>
+</header>
+
+<main>
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <p class="eyebrow">YOUR RIDE. YOUR JOURNEY.</p>
+            <h1>Explore the city<br><span>on two wheels.</span></h1>
+            <p class="hero-text">Rent premium bikes at affordable prices. Pick your ride, choose your location and start your journey.</p>
+            <div class="hero-actions">
+                <a href="#bikes" class="primary-btn">Explore Bikes</a>
+                <a href="#how" class="secondary-btn">How it works →</a>
+            </div>
+        </div>
+        <div class="hero-bike">
+            <div class="bike-illustration">🏍️</div>
+            <div class="floating-card">
+                <strong>120+</strong>
+                <span>Bikes available</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="search-card" id="booking">
+        <div class="search-title">
+            <p class="eyebrow">FIND YOUR RIDE</p>
+            <h2>Book a bike</h2>
+        </div>
+        <form class="booking-form">
+            <label>
+                <span>📍 Pickup location</span>
+                <select>
+                    <option>Chennai - Main Branch</option>
+                    <option>Chennai - Tambaram</option>
+                    <option>Bangalore - Koramangala</option>
+                    <option>Hyderabad - Hitech City</option>
+                </select>
+            </label>
+            <label>
+                <span>📅 Pickup date</span>
+                <input type="date" value="2026-08-20">
+            </label>
+            <label>
+                <span>📅 Return date</span>
+                <input type="date" value="2026-08-22">
+            </label>
+            <button type="button" class="primary-btn">Search Bikes</button>
+        </form>
+    </section>
+
+    <section class="section" id="bikes">
+        <div class="section-heading">
+            <div>
+                <p class="eyebrow">OUR FLEET</p>
+                <h2>Choose your perfect ride</h2>
+            </div>
+            <a href="#">View all bikes →</a>
+        </div>
+
+        <div class="bike-grid">
+            <article class="bike-card">
+                <div class="bike-image classic">🏍️<span class="tag">Popular</span></div>
+                <div class="bike-details">
+                    <div class="bike-name"><h3>Royal Enfield Classic 350</h3><span>★ 4.8</span></div>
+                    <p class="specs">350cc &nbsp; • &nbsp; 5 Gear &nbsp; • &nbsp; Petrol</p>
+                    <div class="price-row"><div><strong>₹899</strong> <small>/ day</small></div><button>Rent Now</button></div>
+                </div>
+            </article>
+
+            <article class="bike-card">
+                <div class="bike-image adventure">🏍️<span class="tag">Adventure</span></div>
+                <div class="bike-details">
+                    <div class="bike-name"><h3>Royal Enfield Himalayan</h3><span>★ 4.7</span></div>
+                    <p class="specs">452cc &nbsp; • &nbsp; 6 Gear &nbsp; • &nbsp; Petrol</p>
+                    <div class="price-row"><div><strong>₹1,399</strong> <small>/ day</small></div><button>Rent Now</button></div>
+                </div>
+            </article>
+
+            <article class="bike-card">
+                <div class="bike-image sport">🏍️<span class="tag">Sport</span></div>
+                <div class="bike-details">
+                    <div class="bike-name"><h3>Yamaha MT-15</h3><span>★ 4.9</span></div>
+                    <p class="specs">155cc &nbsp; • &nbsp; 6 Gear &nbsp; • &nbsp; Petrol</p>
+                    <div class="price-row"><div><strong>₹749</strong> <small>/ day</small></div><button>Rent Now</button></div>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <section class="how" id="how">
+        <div class="section-heading centered">
+            <div>
+                <p class="eyebrow">SIMPLE PROCESS</p>
+                <h2>Rent in 3 easy steps</h2>
+            </div>
+        </div>
+        <div class="steps">
+            <article><div class="step-number">01</div><h3>Choose your bike</h3><p>Browse our collection and select the bike that fits your journey.</p></article>
+            <article><div class="step-number">02</div><h3>Pick a location</h3><p>Select a convenient pickup point and your preferred rental dates.</p></article>
+            <article><div class="step-number">03</div><h3>Ride & enjoy</h3><p>Complete your booking and collect your bike. Your adventure begins!</p></article>
+        </div>
+    </section>
+
+    <section class="reviews" id="reviews">
+        <div class="section-heading centered">
+            <div>
+                <p class="eyebrow">CUSTOMER REVIEWS</p>
+                <h2>Loved by riders</h2>
+            </div>
+        </div>
+        <div class="review-grid">
+            <article class="review"><div class="stars">★★★★★</div><p>“The booking process was extremely simple. The bike was clean and ready on time.”</p><strong>Arjun R.</strong><small>Chennai</small></article>
+            <article class="review"><div class="stars">★★★★★</div><p>“Great selection of bikes and reasonable prices. I had a smooth weekend trip.”</p><strong>Rahul K.</strong><small>Bangalore</small></article>
+            <article class="review"><div class="stars">★★★★★</div><p>“Excellent service and a very convenient pickup location. Will definitely rent again.”</p><strong>Vishal M.</strong><small>Hyderabad</small></article>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <div><a href="#" class="brand">Ride<span>Easy</span></a><p>Your trusted partner for two-wheel adventures.</p></div>
+    <div><h4>Quick Links</h4><a href="#bikes">Bikes</a><a href="#how">How It Works</a><a href="#reviews">Reviews</a></div>
+    <div><h4>Contact</h4><p>support@rideeasy.example</p><p>+91 90000 00000</p></div>
+</footer>
+
+<div class="copyright">© 2026 RideEasy Bike Rental. Frontend project.</div>
+
+</body>
+</html>
